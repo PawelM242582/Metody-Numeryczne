@@ -14,12 +14,6 @@ while True :
         array=list(map(int,input("podaj liczby oddzielone spacjami").split()))
         print(array)
         print("minimum to " , minimum(array)[0])
-        x = minimum(array)[0]
-        index = []
-        for index in range(len(array)):
-           if array[index] == x:
-               print("index minimum to : " , index)
-
         break
     except ValueError:
         print("musisz podać liczbę")
