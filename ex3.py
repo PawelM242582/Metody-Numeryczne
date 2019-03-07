@@ -3,6 +3,10 @@ import numpy as np
 def minimum(x):
    z = min(x)
    y = x.index(min(x))
+   index = []
+   for index in range(len(array)):
+       if array[index] == z:
+           print("index minimum to : " , index)
    return z , y
 
 while True :
