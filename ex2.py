@@ -17,7 +17,7 @@ while True :
         print("factorial" , z , "=", factorial(z))
         break
     except ValueError:
-        print("musisz podać liczbę")
+        print("musisz podać poprawną liczbę")
     except ValueTooSmallError :
         print( "podaj liczbę nieujemną")
 

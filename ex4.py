@@ -10,7 +10,7 @@ class ValueTooSmallError(Error):
    pass
 while True:
     try:
-        n = int(input("Podaj długość wykresu: "))
+        n = float(input("Podaj długość wykresu: "))
         if n  <  0:
            raise ValueTooSmallError
         x = linspace(0, n)
