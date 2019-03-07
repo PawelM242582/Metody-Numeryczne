@@ -2,18 +2,18 @@
 import numpy as np
 def minimum(x):
    z = min(x)
-   y = x.index(min(x))
+   
    index = []
    for index in range(len(array)):
        if array[index] == z:
            print("index minimum to : " , index)
-   return z , y
+   return z 
 
 while True :
     try:
         array=list(map(int,input("podaj liczby oddzielone spacjami").split()))
         print(array)
-        print("minimum to " , minimum(array)[0])
+        print("minimum to " , minimum(array))
         break
     except ValueError:
         print("musisz podać liczbę")
