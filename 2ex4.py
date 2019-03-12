@@ -5,3 +5,5 @@ x = get_float("x: ")
 y = get_float("y: ")
 a = x/y
 print("x/y = " , "%.2f" %a)
+print("x/y = " , "%.5f" %a)
+print("x/y = " , "%.7f" %a)
