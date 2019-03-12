@@ -8,8 +8,8 @@ def perimeter(x):
 def field(x):
     return pi * x * x
 
-x = get_float("podaj x") 
-y = get_float("podaj y")
+x = get_float("podaj x ") 
+y = get_float("podaj y ")
 
 print("Perimeter for %s is %s " %(x, perimeter(x)))
 print("field for %s is %s " %(x, perimeter(x)))
