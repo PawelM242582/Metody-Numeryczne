@@ -3,7 +3,14 @@ from cs50 import get_float
 
 x = get_float("x: ")
 y = get_float("y: ")
-a = x/y
-print("x/y = " , "%.2f" %a)
-print("x/y = " , "%.5f" %a)
-print("x/y = " , "%.7f" %a)
+if y == 0:
+    print("nie dziel przez 0")
+else:
+    a = x/y
+
+    print("x/y = " , "%.2f" %a)
+    print("x/y = " , "%.5f" %a)
+    print("x/y = " , "%.7f" %a)
+    print("{0:.2f}".format(x/y))
+    print("{0:.5f}".format(x/y))
+    print("{0:.7f}".format(x/y))
