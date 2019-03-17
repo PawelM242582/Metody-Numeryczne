@@ -7,9 +7,5 @@ y = get_float("y: ")
 if y == 0:
     print("nie wolno dzielić przez 0")
 else:
-    divisible = x % y ==0 ; divisibleLog = 'X is divisible by Y' if divisible else 'X is not divisible by Y'
+    print('X is divisible by Y') if (x % y == 0) else print('X is not divisible by Y')
 
-    print(divisibleLog)
-
-#dodać printa "podaj poprawna warość" 
-# y nie może być 0
