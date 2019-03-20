@@ -11,10 +11,15 @@ def field(x):
 x = get_float("podaj x ") 
 y = get_float("podaj y ")
 
-print("Perimeter for %s is %s " %(x, perimeter(x)))
-print("field for %s is %s " %(x, field(x)))
-print("Perimeter for %s is %s " %(y, perimeter(y)))
-print("field for %s is %s " %(y, field(y)))
+if x <0 or y < 0 :
+    print("promień nie może być ujemny")
+ 
+else:
+    print("Perimeter for %s is %s " %(x, perimeter(x)))
+    print("field for %s is %s " %(x, field(x)))
+    print("Perimeter for %s is %s " %(y, perimeter(y)))
+    print("field for %s is %s " %(y, field(y)))
 
-#dodajć printa "podaj poprawną wartość"
+
+
 
